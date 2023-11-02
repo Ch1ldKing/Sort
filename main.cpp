@@ -24,7 +24,7 @@ void quickSort(std::vector<int>& arr, int low, int high) {
         int pi = partition(arr, low, high); // 分区索引
 
         quickSort(arr, low, pi - 1); // 递归排序基准左边的子数组
-        quickSort(arr, pi + 1, high); // 递归排序基准右边的子数组
+        quickSort(arr, pi + 1, high);
     }
 }
 
